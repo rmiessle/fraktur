@@ -1,6 +1,6 @@
-#!/bin/bash
+s#!/bin/bash
 branch=${1:-"master"}
-remote=${2:-"https://github.com/htck/bayeux.git"}
+remote=${2:-"https://github.com/rmiessle/fraktur.git"}
 echo "Deploying $branch to gh-pages $remote"
 git checkout $branch
 cd htck
@@ -14,20 +14,20 @@ cd ..
 
 # Create dist zip file
 cd htck
-cp -R dist htck-Bayeux
-zip -r htck-Bayeux.zip htck-Bayeux/
-mv htck-Bayeux.zip dist/
-rm -rf htck-Bayeux
+cp -R dist htck-fraktur
+zip -r htck-fraktur.zip htck-fraktur/
+mv htck-fraktur.zip dist/
+rm -rf htck-fraktur
 cd ..
 
 ######
 
 echo "Creating temporary deployment folder"
-rm -rf /tmp/bayeux-ghost
-mkdir /tmp/bayeux-ghost
-cp -R htck/dist/* /tmp/bayeux-ghost/
-cp -R htck/app/images /tmp/bayeux-ghost/
-cd /tmp/bayeux-ghost
+rm -rf /tmp/fraktur-ghost
+mkdir /tmp/fraktur-ghost
+cp -R htck/dist/* /tmp/fraktur-ghost/
+cp -R htck/app/images /tmp/fraktur-ghost/
+cd /tmp/fraktur-ghost
 echo "Initing ghost git"
 git init
 echo "Add remote $remote"
