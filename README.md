@@ -1,22 +1,16 @@
-# Historic Tale Construction Kit - Bayeux
+# Fraktur Construction Kit
 
-[Check out the online demo!](http://htck.github.io/bayeux)
-
-> Craft thy own Bayeux Tapestry  
-> Slay mischievous beasts  
-> Rule the kingdom
-
-Two German students originally wrote the _Historic Tale Construction Kit_, with Flash. Sadly, their work isn't available anymore, only [remembered](http://netzspannung.org/cat/servlet/CatServlet?cmd=document&subCommand=show&forward=%2Fnetzkollektor%2Foutput%2Fproject.xml&entryId=84868). This new application is a tribute, but also an attempt to revive the old [medieval meme](http://knowyourmeme.com/memes/medieval-macros-bayeux-tapestry-parodies), with code and availability that won't get lost.
+[Based on the Historic Tale Construction Kit](http://htck.github.io/bayeux)
 
 ## Features
 This brand new Historic Tale Construction Kit allows you to
-* Drag, drop, scale, rotate any item from the Bayeux image bank
+* Drag, drop, scale, rotate any item from the fraktur image bank
 * Do the same with text with different fonts and colors
 * Bring elements to the front/back of the scene (this **is** life changing)
 * Work on several images (pages) at once
 * Export those pages as PNG or as GIF
 * Save a working copy of your tapestry to your disk, to finish it later
-* Use brushes to quickly add crowds, birds, or battlefield
+* Use brushes to quickly add elements
 * Use keyboard shortcuts for almost all of the above
 * Download a standalone version to use it anywhere without any server
 
@@ -54,3 +48,4 @@ You can then run a development server using the command ``grunt serve``
 If you experienced a bug, we're sorry! If you can fix it, we gladly accept pull requests. If you can't, you can still open an issue here on GitHub and we will try to address it shortly.
 
 This project is [MIT-licensed](https://github.com/htck/bayeux/blob/master/LICENSE) and any open source contribution is welcome!
+
