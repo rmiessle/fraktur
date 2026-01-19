@@ -1,23 +1,15 @@
 var constants = {
   "config": {
-    "appTitle": "Historic Tale Construction Kit",
-    "appSub": "Bayeux",
-    "repository":"https:/github.com/htck/bayeux",
+    "appTitle": "Fraktur Construction Kit",
+    "appSub": "Fraktur",
+    "repository":"https:/github.com/rmiessle/fraktur",
     "authors": [
       {
-        "name": "LeonardA-L",
-        "picture": "https:/leonarda-l.github.io/Photo_small.jpg",
-        "link": "https:/LeonardA-L.github.io/"
+        "name": "R.C. Miessler",
+        "link": "https:/github.com/rmiessle"
       },
       {
-        "name": "Mathieu",
-        "picture": "https:/secure.gravatar.com/avatar/e6cfb8715cecf121b64c938268519c50?s=64",
-        "link": "https:/thoretton.com"
-      },
-      {
-        "name": "Maria",
-        "picture": "https:/avatars3.githubusercontent.com/u/6231239?v=3&s=460",
-        "link": "https:/www.linkedin.com/in/metegan/"
+        "name": "Riley Yorke"
       }
     ]
   },
@@ -180,7 +172,7 @@ var constants = {
   ],
   "fonts":[
     {
-      font:"Bayeux",
+      font:"UnifrakturCook-Bold",
       size: 25,
       uppercase: true
     },
@@ -333,4 +325,5 @@ var constants = {
     }
   ]
 }
+
 
