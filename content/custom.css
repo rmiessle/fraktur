@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Germania One';
+    src: url('fonts/GermaniaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'UnifrakturMaguntia';
+    src: url('fonts/UnifrakturMaguntia-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
