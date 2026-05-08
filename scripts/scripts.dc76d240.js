@@ -369,7 +369,7 @@
           g.destroy();
         }),
         (a.save = function () {
-          (o(), k.save(l.pages, "TheLegendaryManuscript.htck"));
+          (o(), k.save(l.pages, "MyFraktur.htck"));
         }),
         (a.startImport = function () {
           angular.element("#import-file-chooser").trigger("click");
