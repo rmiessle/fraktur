@@ -2,15 +2,8 @@
 
 [Based on the Historic Tale Construction Kit](http://htck.github.io/bayeux)
 
-## Features
-This brand new Historic Tale Construction Kit allows you to
-* Drag, drop, scale, rotate any item from the fraktur image bank
-* Do the same with text with different fonts and colors
-* Bring elements to the front/back of the scene (this **is** life changing)
-* Work on several images (pages) at once
-* Export those pages as PNG or as GIF
-* Save a working copy of your tapestry to your disk, to finish it later
-* Use brushes to quickly add elements
-* Use keyboard shortcuts for almost all of the above
-* Download a standalone version to use it anywhere without any server
+Created as part of the "Fraktur-ing the Family: Printed Art of the Pennsylvania-Germans" exhibit curated by Riley Yorke, Class of 2026, and 2025-2026 Tricia Smelter Intern in [Gettysburg College's Special Collections and College Archives](https://gettysburg.edu/special-collections).
 
+The folk-art tradition of Fraktur is a distinctive printed art form developed by Pennsylvania-German communities. Known for its sharp Gothic lettering, bright colors, and decorative motifs such as birds, hearts, and biblical symbols, Fraktur prints were often used to document important life events like births and baptisms.
+
+Images digitized from a donation by Richard S. Paul as part of MS-334.
