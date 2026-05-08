@@ -1,13 +1,51 @@
 @font-face {
-    font-family: 'Germania One';
-    src: url('fonts/GermaniaOne-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'Germania One';
+  src: url('fonts/GermaniaOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'UnifrakturMaguntia';
-    src: url('fonts/UnifrakturMaguntia-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'UnifrakturMaguntia';
+  src: url('fonts/UnifrakturMaguntia-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.mobile-only {
+  display: none;
+}
+
+.desktop-only {
+}
+
+#title::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#title .header-bird-left {
+  float: left;
+  display: block;
+  width: 180px;
+  height: auto;
+  margin: 0 1.25rem 0.75rem 0;
+}
+
+@media (max-width: 768px) {
+  .mobile-only {
+    display: block;
+  }
+
+  .desktop-only {
+    display: none !important;
+  }
+
+  #title .header-bird-left {
+    display: none !important;
+    float: none;
+    width: auto;
+    margin: 0;
+  }
 }
